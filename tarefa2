@@ -1,6 +1,9 @@
 <dcc-rss source="https://www.wired.com/category/science/feed" subscribe="next/rss/science:next" topic="rss/science">
 </dcc-rss>
 
+<dcc-rss source="https://www.wired.com/category/design/feed" subscribe="next/rss/design:next" topic="rss/design">
+</dcc-rss>
+
 <dcc-aggregator topic="aggregate/science" quantity="4" subscribe="rss/science">
 </dcc-aggregator>
 
@@ -9,9 +12,6 @@
 
 <dcc-lively-talk character="https://harena-lab.github.io/harena-docs/dccs/tutorial/images/doctor.png" speech="Compact: " subscribe="aggregate/science:speech">
 </dcc-lively-talk>
-
-<dcc-rss source="https://www.wired.com/category/design/feed" subscribe="next/rss/design:next" topic="rss/design">
-</dcc-rss>
 
 <dcc-lively-talk speech="News: " subscribe="rss/design:speech">
 </dcc-lively-talk>
