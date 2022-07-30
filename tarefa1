@@ -1,0 +1,20 @@
+<dcc-button label="Politica Mundo" topic="noticia/mundo/politica" message="Noticias do mundo">
+</dcc-button>
+
+<dcc-button label="Politica Brasil" topic="noticia/brasil/politica" message="Politica no Brasil">
+</dcc-button>
+
+<dcc-button label="Dinos Brasil" topic="noticia/brasil/dinos" message="Dinos do Brasil">
+</dcc-button>
+
+<dcc-button label="Dinos Bahia" topic="noticia/bahia/dinos" message="Dinos da Bahia">
+</dcc-button>
+
+  <dcc-lively-talk character="https://harena-lab.github.io/harena-docs/dccs/tutorial/images/doctor.png" speech="Eu li sobre: " subscribe="#/politica:speech">
+  </dcc-lively-talk>
+
+  <dcc-lively-talk character="https://harena-lab.github.io/harena-docs/dccs/tutorial/images/nurse.png" speech="Eu li sobre: " subscribe="noticia/brasil/#:speech">
+  </dcc-lively-talk>
+
+  <dcc-lively-talk speech="Eu li sobre: " subscribe="noticia/#:speech">
+  </dcc-lively-talk>
